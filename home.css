@@ -1,0 +1,338 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", "Open Sans", sans-serif;
+    font-size: large;
+
+}
+
+#Home {
+    height: 720px;
+    background-image: url(./images/Home_pic.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 4%;
+    max-width: 100%;
+    min-width: none;
+}
+
+#Home .navbar {
+    display: flex;
+    max-width: 100%;
+    min-width: none;
+}
+
+#Home .navbar li {
+    display: inline;
+    max-width: 100%;
+    min-width: none;
+
+}
+
+#Home .navbar ul {
+    overflow: hidden;
+    max-width: 100%;
+    min-width: none;
+}
+
+#Home .navbar a {
+    color: firebrick;
+    margin: 5px;
+    float: left;
+    text-decoration: none;
+    max-width: 100%;
+    min-width: none;
+
+}
+
+#Home .navbar .nav-link:hover {
+    color: rgb(82, 32, 19);
+    padding-right:30px;
+    padding-left:30px;
+
+}
+
+#Home #text {
+    padding-top:20%;
+    padding-left: 10%;
+    font-size: x-large;
+    color: rgb(146, 121, 121);
+
+}
+
+#Home #image {
+    padding-right:100%;
+    padding-left: 100%;
+    background-color: rgb(209, 209, 214);
+}
+
+h1 {
+    font-size: xx-large;
+    color: firebrick;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: xx-large;
+    color: firebrick;
+}
+
+h3 {
+    color: firebrick;
+    font-weight: 600;
+    font-size: x-large;
+}
+
+h4 {
+    color: firebrick;
+    font-weight: 600;
+    font-size: x-large;
+    padding: 0px 20px 0px 40px;
+}
+
+h5 {
+    color: rgb(117, 79, 79);
+    font-weight: 600;
+    font-size: x-large;
+    opacity: 1;
+}
+#About {
+    background-color: white;
+    height: 720px;
+}
+
+.about {
+    padding: 100px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#About .about .info {
+    width: 50%;
+    font-size: large;
+    position: relative;
+    text-align: initial;
+    color: rgb(142, 45, 45);
+    padding: 0px 100px 80px 10px;
+}
+
+#About .about .context img {
+    padding: 50px 20px 0px 80px;
+    width: 400px;
+    height: 400px;
+}
+
+#Contact {
+    padding: 50px 0px 100px 0px;
+    background-color: rgb(237, 237, 237);
+    opacity: 0.9;
+    height: 920px;
+    font-size: x-large;
+}
+
+.contacts {
+    padding: 100px 0px 300px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts .information1 {
+    padding-bottom: 60px;
+    width: 50%;
+    text-align: initial;
+    position: relative;
+    padding: 0px 100px 80px 50px;
+}
+
+
+.contacts .information1 input {
+    width: 100%;
+    height: 10%;
+}
+
+.contacts .information1 #Name {
+    background-image: url(./images/user.svg);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+
+.contacts .information1 #address {
+    background-image: url(./images/map-pin.svg);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+
+.contacts .information1 #Email {
+    background-image: url(./images/mail.svg);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 30px;
+}
+
+.contacts .information1 button {
+    width: 100%;
+    background-color: firebrick;
+    color: white;
+}
+
+.contacts .information1 button a {
+    text-decoration: none;
+    overflow: hidden;
+    color: white;
+}
+
+#Team {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    background-color: rgb(236, 236, 242);
+    height: 800px;
+}
+
+.Teams {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Teams img {
+    width: 100%;
+    height: 100%;
+}
+
+.Teams .member {
+    width: 20%;
+    height: 30%;
+    margin: 4%;
+    text-align: center;
+    padding-right: 40px;
+    opacity: 1;
+    position: relative;
+
+}
+
+.Teams .member .overlay {
+    width: 85%;
+    height: 75%;
+    background-color: rgba(201, 18, 18, 0.5);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.Teams .member .overlay:hover {
+    opacity: 1;
+
+}
+
+.Teams .member .buttom p {
+    font-weight: 300;
+    font-size: xx-large;
+}
+
+.Team .member .overlay:hover {
+    opacity: 1;
+}
+
+#Services {
+    padding: 20px 0px 100px 0px;
+    background-color: rgb(236, 236, 242);
+    height: 750px;
+}
+
+.service {
+    padding: 100px 100px 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.service .main {
+    background-color: rgb(215, 215, 219);
+    padding-top: 2%;
+    padding-left: 3%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+    border-radius: 10%;
+}
+
+.all_page #sss {
+    padding-top: 18%;
+    padding-left: 20%;
+    padding-right: 20%;
+    opacity: 0.8;
+    background-size: 20%;
+    color: rgb(122, 14, 14);
+}
+
+.service .main:hover {
+    opacity: 1;
+    background-color: rgba(201, 18, 18, 0.5);
+}
+
+.continer {
+    width: 50%;
+}
+
+.skill {
+    background-color: white;
+    border-radius: 0%;
+}
+
+.box {
+    width: 50%;
+}
+
+#Skills {
+    padding-top: 1%;
+    background-color: rgb(237, 237, 237);
+    height: 700px;
+}
+
+.level {
+
+    width: 100%;
+    height: 5px;
+    border-radius: 8px;
+
+}
+
+.skillbox {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+.skillbox p {
+    padding: 0;
+    letter-spacing: 1px;
+    margin: 0 0 15px;
+    text-transform: uppercase;
+    color: rgb(155, 92, 92);
+    font-weight: bold;
+
+}
+
+.skillbox p:nth-child(2) {
+    float: right;
+    position: relative;
+    top: -25px;
+}
+
+.box {
+    margin: 2200px 50px 0px 300px;
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 25px 20px;
+
+}
